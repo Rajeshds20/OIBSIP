@@ -1,0 +1,135 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+#star1 {
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+  position: absolute;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+}
+
+#star2 {
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+  position: absolute;
+  /* position: absolute; */
+  top: 100px;
+  left: 100px;
+}
+
+#star3 {
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+  position: absolute;
+  /* position: absolute; */
+  top: 200px;
+  left: 200px;
+}
+
+
+#star4 {
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+  position: absolute;
+  /* position: absolute; */
+  top: 100px;
+  left: 100px;
+}
+
+
+#star5 {
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+  position: absolute;
+  /* position: absolute; */
+  top: 100px;
+  left: 100px;
+}
+
+
+#star6 {
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+  position: absolute;
+  /* position: absolute; */
+  top: 100px;
+  left: 100px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("ramnujanbg.jpg");
+  height: 120%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(68, 83, 49, 0.738);
+  border: 3px solid #f58a67da;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 68%;
+  height: 470px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+#img1 {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  float: top-right;
+  flex-basis: 40%;
+}
+
+#head1 {
+  float: top-left;
+  color: rgb(192, 241, 13);
+  font-family: algerian;
+}
+
+#para1 {
+  float: left;
+  color: rgb(237, 244, 245);
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#head2,
+#head3,
+#head4 {
+  text-align: left;
+  color: rgb(226, 43, 76);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#para2,
+#para3,
+#para4 {
+  text-align: left;
+  color: azure;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

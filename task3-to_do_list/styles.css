@@ -1,0 +1,75 @@
+body {
+    /* background-color: azure;*/
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 4%, rgba(9, 115, 121, 1) 50%, rgba(0, 212, 255, 1) 100%);
+}
+
+.heading {
+    background-color: aquamarine;
+    font-size: 40px;
+    color: darkmagenta;
+    text-align: center;
+}
+
+.entry {
+    font-size: 30px;
+    color: brown;
+    text-align: center;
+    width: 40%;
+    background-color: cornsilk;
+    border: 2px solid dimgrey;
+    box-shadow: 2px #000;
+}
+
+.newadd {
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: brown;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 5%;
+    margin-top: 4%;
+    font-weight: bolder;
+    background-color: cornsilk;
+    border: 2px solid dimgrey;
+    box-shadow: 2px #000;
+}
+
+.delete1 {
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: brown;
+    text-align: center;
+    margin-right: 35%;
+    margin-left: 5%;
+    margin-top: 4%;
+    font-weight: bolder;
+    background-color: cornsilk;
+    border: 2px solid dimgrey;
+    box-shadow: 2px #000;
+}
+
+.newadd:hover,
+.delete1:hover {
+    background-color: darkmagenta;
+    color: cornsilk;
+    cursor: pointer;
+}
+
+.tasks {
+    margin-top: 30px;
+}
+
+.item {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    width: 40%;
+    background-color: coral;
+    border: 2px solid dimgrey;
+    box-shadow: 4px #000;
+    margin: 20px;
+}
